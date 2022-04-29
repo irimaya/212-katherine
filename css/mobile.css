@@ -1,0 +1,59 @@
+/* Home-Header */
+#home-header {
+	background-position: top center;
+}
+
+/* Showcase */
+#showcase h1,
+#showcase h2 {
+	font-size: 90px;
+}
+
+#showcase h2 {
+	padding-left: 0;
+}
+
+#showcase .container {
+	flex-direction: column;
+}
+
+#showcase h2,
+#showcase p,
+#showcase a {
+	margin-left: 0;
+}
+
+#showcase p {
+	padding-bottom: 5px;
+	width: 100%;
+}
+
+/* Subtitle */
+.subtitle {
+	padding: 50px 0;
+	text-align: center;
+}
+
+/* Work */
+#work {
+	padding: 20px 0;
+}
+
+.work-box {
+	display: flex;
+	padding: 40px 0;
+	flex-direction: column;
+	text-align: center;
+}
+
+.work-box-image {
+	padding-right: 0;
+}
+
+/* Contact */
+
+.contact-box {
+	/* border: 1px solid #000; */
+	padding: 30px 40px;
+	width: 100%;
+}
