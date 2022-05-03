@@ -11,26 +11,18 @@
 html,
 body {
 	font-family: 'Raleway', sans-serif;
-	line-height: 1.5;
 }
 
 h1 {
 	font-size: 2.5rem;
 }
+
 h2 {
 	font-size: 2rem;
 }
-h3 {
-	font-size: 1.75rem;
-}
+
 h4 {
 	font-size: 1.5rem;
-}
-h5 {
-	font-size: 1.25rem;
-}
-h6 {
-	font-size: 1rem;
 }
 
 ul {
@@ -46,7 +38,6 @@ p {
 	margin: 10px 0;
 	line-height: 1.7em;
 }
-
 a {
 	text-decoration: none;
 }
@@ -126,9 +117,25 @@ a {
 	background-image: linear-gradient(to right, #f0bba2, #edcaba);
 }
 
+/* Subtitle */
+.subtitle {
+	background: #f0bba2;
+	padding: 70px 0;
+}
+
+.subtitle h2 {
+	font-size: 50px;
+	font-weight: 100;
+	color: #fff;
+}
+
+.subtitle span {
+	font-weight: 700;
+}
+
 /* Showcase */
 #showcase {
-	padding: 120px 0;
+	padding-top: 120px;
 	color: #fff;
 }
 
@@ -140,7 +147,7 @@ a {
 
 #showcase h1 {
 	font-weight: 300;
-	margin-bottom: -50px;
+	margin-bottom: -40px;
 }
 
 #showcase h2 {
@@ -156,22 +163,6 @@ a {
 #showcase p {
 	padding-bottom: 15px;
 	width: 50%;
-}
-
-/* Subtitle */
-.subtitle {
-	background: #f0bba2;
-	padding: 70px 0;
-}
-
-.subtitle h2 {
-	font-size: 50px;
-	color: #fff;
-	font-weight: 100;
-}
-
-.subtitle span {
-	font-weight: 700;
 }
 
 /* Work */
@@ -236,10 +227,6 @@ form .form-control {
 
 .form-row input:first-child {
 	margin-right: 20px;
-}
-
-form textarea {
-	font-family: 'Raleway', sans-serif;
 }
 
 button {
